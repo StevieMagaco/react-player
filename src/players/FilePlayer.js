@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import moonGif from './moon.gif'
 
 import { getSDK } from '../utils'
 
@@ -172,7 +173,7 @@ export default class FilePlayer extends Component {
         src={src}
         style={style}
         preload='auto'
-        poster='./moon.gif'
+        poster={moonGif}
         controls={controls}
         loop={loop}
         {...config.file.attributes}>
