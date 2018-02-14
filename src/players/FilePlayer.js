@@ -172,6 +172,7 @@ export default class FilePlayer extends Component {
         src={src}
         style={style}
         preload='auto'
+        poster='./moon.gif'
         controls={controls}
         loop={loop}
         {...config.file.attributes}>
